@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="close_image">
+    <file>Imagens/eu.jpg</file>
+    <file>Imagens/FUNDO MENU PRINCIPAL PSD.psd</file>
+    <file>sair.svg</file>
+    <file>Icones/sair.png</file>
+    <file>Icones/remove.bmp</file>
+    <file>icones menu/sair.bmp</file>
+  </qresource>
+  <qresource prefix="icones">
+    <file>Icones/icone-login.ico</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>icones menu/movimentacoes.bmp</file>
+  </qresource>
+</RCC>
