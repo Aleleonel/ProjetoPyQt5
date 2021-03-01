@@ -47,6 +47,8 @@
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -56,11 +58,11 @@
      <string>Cadastro de Produtos</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>80</y>
+      <x>60</x>
+      <y>70</y>
       <width>371</width>
       <height>341</height>
      </rect>
@@ -69,38 +71,6 @@
      <property name="spacing">
       <number>0</number>
      </property>
-     <item row="4" column="2">
-      <widget class="QRadioButton" name="rb01">
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>Unhas</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1" colspan="2">
-      <widget class="QLineEdit" name="ldCod">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_4">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Preço: </string>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="1" colspan="2">
       <widget class="QLineEdit" name="ldDesc">
        <property name="styleSheet">
@@ -121,8 +91,8 @@
        </property>
       </widget>
      </item>
-     <item row="5" column="2">
-      <widget class="QRadioButton" name="rb02">
+     <item row="4" column="2">
+      <widget class="QRadioButton" name="rb01">
        <property name="font">
         <font>
          <weight>75</weight>
@@ -130,12 +100,26 @@
         </font>
        </property>
        <property name="text">
-        <string>Maquiagens</string>
+        <string>Unhas</string>
        </property>
       </widget>
      </item>
-     <item row="3" column="1" colspan="2">
-      <widget class="QLineEdit" name="ldPrec">
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Categoria</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="ldCod">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
@@ -153,17 +137,48 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="QLabel" name="label_5">
+     <item row="3" column="1" colspan="2">
+      <widget class="QLineEdit" name="ldPrec">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="btnCadastrar">
        <property name="font">
         <font>
-         <pointsize>15</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
        <property name="text">
-        <string>Categoria</string>
+        <string>Cadastrar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QRadioButton" name="rb02">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Maquiagens</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Preço: </string>
        </property>
       </widget>
      </item>
@@ -192,8 +207,8 @@
        </property>
       </widget>
      </item>
-     <item row="8" column="2">
-      <widget class="QPushButton" name="btnCadastrar">
+     <item row="9" column="2">
+      <widget class="QPushButton" name="btnListar">
        <property name="font">
         <font>
          <weight>75</weight>
@@ -201,7 +216,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Cadastrar</string>
+        <string>Listar</string>
        </property>
       </widget>
      </item>
